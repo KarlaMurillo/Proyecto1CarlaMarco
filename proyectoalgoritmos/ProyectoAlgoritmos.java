@@ -1,5 +1,6 @@
 package proyectoalgoritmos;
 
+<<<<<<< HEAD
 import Data.ManejadorArchivoData;
 import Domain.Pelicula;
 import GUI.VentanaPrincipal;
@@ -19,15 +20,27 @@ import java.util.Scanner;
 /**
  *
  * @author karla
+=======
+import Lista.ListaDoblementeEnlazada;
+
+/**
+ *
+ * @author Marco
+>>>>>>> 85f1eb3ce4eb094f421c0f4539c3ad00be448306
  */
 
 public class ProyectoAlgoritmos {
 
+<<<<<<< HEAD
     public static void main(String[] args) throws IOException {
+=======
+    public static void main(String[] args) {
+>>>>>>> 85f1eb3ce4eb094f421c0f4539c3ad00be448306
    
         ListaDoblementeEnlazada lde = new ListaDoblementeEnlazada();
         
         lde.insertarAlInicio("a");
+<<<<<<< HEAD
         lde.inserAlFinal("c");
         lde.inserAlFinal("e");
         
@@ -63,3 +76,14 @@ ManejadorArchivoData m=new ManejadorArchivoData();
 m.leerArchivo();
   }//main    
 }//class
+=======
+        lde.inserAlFinal("b");
+        lde.inserAlFinal("c");
+        
+        lde.eliminarElemento("c");
+       lde.imprimirLista();
+       
+    }
+       
+}
+>>>>>>> 85f1eb3ce4eb094f421c0f4539c3ad00be448306

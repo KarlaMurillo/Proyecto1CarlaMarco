@@ -2,11 +2,7 @@ package Lista;
 
 /**
  *
-<<<<<<< HEAD
  * @author karla
-=======
- * @author Marco
->>>>>>> 85f1eb3ce4eb094f421c0f4539c3ad00be448306
  */
 public class ListaDoblementeEnlazada {
     
